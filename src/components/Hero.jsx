@@ -16,8 +16,8 @@ function Hero() {
             </div>
 
             {/* Content */}
-            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-                <div className="space-y-8 animate-fadeInUp">
+            <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white min-h-screen">
+                <div className="flex items-center justify-center flex-col space-y-5 p-25 animate-fadeInUp min-h-screen">
                     {/* Badge */}
                     <div className="flex items-center justify-center space-x-2">
                         <div className="flex items-center bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
