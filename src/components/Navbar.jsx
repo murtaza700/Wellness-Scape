@@ -4,8 +4,6 @@ import {
     Menu,
     X,
     Phone,
-    Sun,
-    Moon,
     Sparkles
 } from 'lucide-react'
 
@@ -67,17 +65,6 @@ function Navbar({ darkMode, toggleDarkMode }) {
 
                     {/* Right Section */}
                     <div className="hidden md:flex items-center space-x-4">
-                        <button
-                            onClick={toggleDarkMode}
-                            className="p-2 rounded-full hover:bg-[#E8D8C3]/20 transition-colors"
-                            aria-label="Toggle dark mode"
-                        >
-                            {darkMode ? (
-                                <Sun className="w-5 h-5 text-[#C8A96A]" />
-                            ) : (
-                                <Moon className="w-5 h-5 text-[#1F3D2B]" />
-                            )}
-                        </button>
 
                         <a
                             href="tel:+971123456789"
@@ -97,16 +84,6 @@ function Navbar({ darkMode, toggleDarkMode }) {
 
                     {/* Mobile Menu Button */}
                     <div className="md:hidden flex items-center space-x-3">
-                        <button
-                            onClick={toggleDarkMode}
-                            className="p-2 rounded-full hover:bg-[#E8D8C3]/20 transition-colors"
-                        >
-                            {darkMode ? (
-                                <Sun className="w-5 h-5 text-[#C8A96A]" />
-                            ) : (
-                                <Moon className="w-5 h-5 text-[#1F3D2B]" />
-                            )}
-                        </button>
 
                         <button
                             onClick={() => setIsOpen(!isOpen)}
