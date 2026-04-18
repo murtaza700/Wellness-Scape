@@ -45,7 +45,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
                     </Link>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-8">
+                    <div className="hidden lg:flex items-center space-x-8">
                         {navLinks.map((link) => (
                             <Link
                                 key={link.path}
@@ -64,7 +64,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
                     </div>
 
                     {/* Right Section */}
-                    <div className="hidden md:flex items-center space-x-4">
+                    <div className="hidden lg:flex items-center space-x-4">
 
                         <a
                             href="tel:+971123456789"
@@ -83,7 +83,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
                     </div>
 
                     {/* Mobile Menu Button */}
-                    <div className="md:hidden flex items-center space-x-3">
+                    <div className="lg:hidden flex items-center space-x-3">
 
                         <button
                             onClick={() => setIsOpen(!isOpen)}
@@ -101,7 +101,7 @@ function Navbar({ darkMode, toggleDarkMode }) {
 
                 {/* Mobile Menu */}
                 {isOpen && (
-                    <div className="md:hidden absolute top-full left-0 right-0 bg-white dark:bg-[#1A1A1A] shadow-xl animate-scaleIn">
+                    <div className="lg:hidden absolute top-full left-0 right-0 bg-white dark:bg-[#1A1A1A] shadow-xl animate-scaleIn">
                         <div className="px-4 py-6 space-y-4">
                             {navLinks.map((link) => (
                                 <Link
