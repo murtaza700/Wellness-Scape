@@ -18,7 +18,7 @@ function Gallery() {
         {
             url: '/gallery-photo3.jpeg',
             alt: 'Aromatherapy',
-            span: 'col-span-2 row-span-1',
+            span: 'col-span-1 row-span-1',
         },
         {
             url: '/gallery-photo4.jpeg',
