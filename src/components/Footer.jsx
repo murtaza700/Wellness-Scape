@@ -82,8 +82,8 @@ function Footer() {
                             </li>
                             <li className="flex items-center space-x-3">
                                 <Mail className="w-5 h-5 text-[#C8A96A] flex-shrink-0" />
-                                <a href="mailto:info@wellnessscape.ae" className="text-gray-300 hover:text-[#C8A96A] transition-colors text-sm">
-                                    info@wellnessscape.ae
+                                <a href="mailto:info@wellnessscape" className="text-gray-300 hover:text-[#C8A96A] transition-colors text-sm">
+                                    info@wellnessscape
                                 </a>
                             </li>
                         </ul>
@@ -113,7 +113,7 @@ function Footer() {
                 <div className="border-t border-white/10 mt-12 pt-8">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                         <p className="text-gray-400 text-sm">
-                            © {currentYear} Wellness Scape UAE. All rights reserved.
+                            © {currentYear} Wellness Scape. All rights reserved.
                         </p>
 
                         <div className="flex items-center space-x-6">
@@ -126,7 +126,7 @@ function Footer() {
                         </div>
 
                         <p className="text-gray-400 text-sm flex items-center">
-                            Made with <Heart className="w-4 h-4 text-red-500 mx-1 fill-red-500" /> in UAE
+                            Made with <Heart className="w-4 h-4 text-red-500 mx-1 fill-red-500" /> By Ghulam Murtaza
                         </p>
                     </div>
                 </div>

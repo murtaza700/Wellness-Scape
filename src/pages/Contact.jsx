@@ -100,8 +100,8 @@ function Contact() {
                                     <Mail className="w-6 h-6 text-[#C8A96A] flex-shrink-0 mt-1" />
                                     <div>
                                         <h4 className="font-medium text-[#2B2B2B] dark:text-[#F5F5F5] mb-2">Email Us</h4>
-                                        <a href="mailto:info@wellnessscape.ae" className="text-gray-600 dark:text-gray-400 text-sm hover:text-[#C8A96A]">
-                                            info@wellnessscape.ae
+                                        <a href="mailto:info@wellnessscape" className="text-gray-600 dark:text-gray-400 text-sm hover:text-[#C8A96A]">
+                                            info@wellnessscape
                                         </a>
                                     </div>
                                 </div>
